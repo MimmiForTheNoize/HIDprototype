@@ -1,38 +1,343 @@
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  color: #4B4B4B;
+  height: 100%;
+  margin: 0;
+  background-image: url("newbackdrop.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+  background-size: cover;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainDiv .landingpageMain {
+  background-color: #f9f9f9;
+  opacity: 0.8;
+  padding: 2vh 0 0.5vh 0;
+  margin: 5vh 20vw 20vh 20vw;
+}
+
 .App {
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+
+.mainDiv {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bigLink {
+  color: #60e160;
+  margin-left: 5vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bigLink:hover {
+  border-bottom: 1px solid;
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+label {
+  font-size: 18px;
+}
+
+.searchtitle {
+  font-size: 3vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.search {
+  background-color: #f9f9f9;
+  padding: 0.5vh 5vw 1.5vh 5vw;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.lowerpart {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.radioStarDiv {
+ width: auto;
+}
+
+.aboveStars {
+  display: flex;
+}
+
+.detailBody {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+
+.mainText {
+  max-width: 60%;
+  padding-left: 3vw;
+  padding-bottom: 2vh;
+  margin: 2vh 2vw 2vw 2vh;
+  background-color: #f9f9f9;
+  opacity: 0.8;
+}
+
+.featured {
+  margin: 10vh;
+  background-color: #f9f9f9;
+  opacity: unset;
+}
+quizzBtn {
+  margin-left: 4.5vw!important;
+}
+
+.question {
+  padding: 15vh 0 3vh 0;
+}
+
+.answers {
+  padding: 2vh;
+  background-color: #f9f9f9;
+  margin-bottom: 2vh;
+}
+
+.cont {
+  background-color: #f9f9f9;
+  padding: 8px 0 8px 0;
+}
+
+.cont:hover {
+  background-color: #c9c3c3;
+}
+
+.cont2 {
+  background-color: #60e160;
+}
+.cont3 {
+  background-color: #60e160;
+}
+.cont4 {
+  background-color: #60e160;
+}
+
+.cont5 {
+  background-color: #60e160;
+}
+.quizzContent {
+  padding: 0vw 25vw 0vw 25vw;
+  margin: 10vh 0vh 10vh 0vh;
+}
+
+.dropdown {
+  margin: 50px;
+  min-width: 160px;
+  height: 100%;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.results {
+  margin: 5vh;
+}
+
+.locationSelect {
+  display: block;
+}
+select {
+  display: block;
+}
+
+.bearLogo {
+  height: 10%;
+  width: 10%;
+}
+.navbar-fixed {
+  padding-bottom: 15vh;
+}
+
+.navItems {
+  margin-right: 5vw;
+}
+.header {
+  font-size: 22px;
+}
+
+.headerDiv {
+  background-color: #60e160;
+  color: #000;
+}
+.bearLogo {
+  margin-left: 5vw;
+}
+.KidzEdTitle {
+  margin-right: 5vw;
+  font-size: 3vw;
+}
+
+
+.landingPageBtn {
+  margin: 1vh;
+}
+
+landingpageStars {
+  color: #FF7F11;
+}
+
+.detailstars {
+  color: #FF7F11;
+  margin-left: 5vw;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  alignment-baseline: center;
+}
+
+
+.page-footer {
+  height: 21vh;
+}
+.moreBtn {
+
+}
+
+.contactMapImage {
+  max-width: 50%;
+}
+
+.socialIcons {
+  padding: 3vh;
+}
+
+.socialIconSingle {
+  padding-right: 1.5vw;
+}
+
+.contactCard {
+  padding-bottom: 2.5vh;
+}
+
+.detailReview {
+  padding-bottom: 2.5vh;
+
+}
+.mainHeaderContainer {
+  padding: 3vh 0 1.5vh 0;
+}
+
+.headerPart2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 10vw;
+}
+
+.galleryItem {
+  margin-top: 3vh;
+}
+
+.detailPageTitle {
+  margin: 1.5vh 0 1.5vh 0;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.loginInfo {
+  margin: 5vh 0vh 3.5vh 0vh;
+}
+
+.addreview {
+  background-color: #f9f9f9;
+  padding: 2vh 2vw 0 2vw;
+}
+
+.starlabel {
+  padding-bottom: 1.5vh;
+}
+
+.radioStars {
+  padding-bottom: 2vh;
+}
+
+.foodselection {
+  padding-bottom: 2.5vh;
+}
+
+.reviewTextInput {
+  max-width: 50%;
+}
+
+.textareaLabel {
+  padding-top: 5vh;
+}
+
+.marginrelated {
+  margin-bottom: 5px;
+}
+
+.btnContainer {
+  margin-top: 4vh;
+}
+
+.addReviewSelect {
+  max-width: 50%;
+  margin-left: 12vw;
+}
+
+.privateLabel {
+  padding-bottom: 2.5vh;
+}
+
+.addCheckbox {
+  padding-bottom: 2.5vh;
+}
+
+.checkboxContainer {
+  padding: 1vh;
+}
+
+.checkboxContainer span {
+  padding-right: 15px;
+}
+
+
+.publishBtn {
+  margin-bottom: 10vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .detailBody {
+    flex-wrap: wrap-reverse;
   }
-  to {
-    transform: rotate(360deg);
+  .mainText {
+    max-width: 100%;
+  }
+
+  .imageContainer {
+    flex-wrap: wrap;
+  }
+
+  .addReviewSelect {
+    max-width: 100%!important;
+    margin-left: 0;
   }
 }
