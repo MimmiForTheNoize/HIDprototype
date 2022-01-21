@@ -2,6 +2,7 @@ import * as React from 'react';
 import SingleResult from './SingleResult';
 import {useState} from "react";
 import Filter from './Filter';
+import ScrollButton from './ScrollButton';
 
 const SearchResults = ({ results }) => {
 
@@ -44,6 +45,8 @@ const SearchResults = ({ results }) => {
 
     return (
         <div>
+
+
             <Filter locations={generateLocationDataForDropdown()}
                     ratings={generateRatingDataForDropdown()}
                     onSearchFilter={handleFilterSerach}
@@ -56,8 +59,9 @@ const SearchResults = ({ results }) => {
 
                     ))}
                 </>
-            </div>
 
+            </div>
+            <ScrollButton />
         </div>
     )
 }

@@ -2,6 +2,8 @@ import * as React from 'react';
 import SingleReview from "./SingleReview";
 import {useState} from "react";
 import ReviewFilter from "./ReviewFilter";
+import ScrollButton from "./ScrollButton";
+
 
 const AllReviews = ( {reviews} ) => {
 
@@ -32,7 +34,7 @@ const AllReviews = ( {reviews} ) => {
                  ))}
              </>
             </div>
-
+            <ScrollButton />
         </div>
     )
 }

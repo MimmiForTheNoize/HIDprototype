@@ -41,13 +41,16 @@ const ReviewFilter = ({ reviewRatings, onReviewRatingFilter }) => {
         <div className='mainDiv'>
             <div className='filter container'>
                 <div className='dropdown row'>
-                    <label htmlFor='rating'> Bewertung</label>
-                    <select  className='ratingSelect' onChange={handleInput("reviewRatings")}>
-                        <option onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}   className='specialOption' value=''>Bewertungsgrad</option>
-                        {reviewRatings.map(reviewRating => (
-                            <option onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} value={reviewRating} key={reviewRating}>{reviewRating}</option>
-                        ))}
-                    </select>
+                    <div className='dropdownSelect'>
+                        <label htmlFor='rating'> Bewertung</label>
+                        <select  className='ratingSelect' onChange={handleInput("reviewRatings")}>
+                            <option onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}   className='specialOption' value=''>Bewertungsgrad</option>
+                            {reviewRatings.map(reviewRating => (
+                                <option onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} value={reviewRating} key={reviewRating}>{reviewRating}</option>
+                            ))}
+                        </select>
+                    </div>
+
                 </div>
 
 

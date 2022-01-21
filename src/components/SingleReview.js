@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import { BsFillHandThumbsUpFill } from "react-icons/bs";
 import {Link} from "react-router-dom";
 
 const SingleReview = ({ review }) => {
@@ -20,17 +20,45 @@ const SingleReview = ({ review }) => {
                 <div className="card horizontals">
                     <div className="card-stacked">
                         <div className="card-content">
-                            <div className='date'>
-                                {review.date}
+
+                            <div className='row reviewElemUpper'>
+
+                                <div className=' col s2 date right'>
+                                    {review.date}
+                                </div>
+
+                                <div className='col s2 right'>
+                                    <p className="header">{review.name}</p>
+                                </div>
+
+
                             </div>
-                            <h4 className="header">{review.name}</h4>
-                            <p>{displayStarsForRanking(review.reviewRating)}</p>
-                            <p>{review.title}</p>
+
+
+
+                            <div className='row'>
+
+                                <div className= 'col s2 reviewRanking left'>
+                                    <p className='reviewStars'>{displayStarsForRanking(review.reviewRating)}</p>
+                                </div>
+
+                                <div className='col s8 searchtitle center'>
+                                    <p>{review.title}</p>
+                                </div>
+                            </div>
+
                             <p>{review.reviewContent}</p>
-                            <p>{review.helpful}</p>
+
+
                         </div>
                         <div className="card-action">
-                            <button className='waves-effect waves-light btn-large moreBtn'>Mehr</button>
+                            <div className='right'>
+                                <p className='helpful'> <BsFillHandThumbsUpFill /> {review.helpful} Fanden den Beitrag hilfreich</p>
+                            </div>
+                            <div className='reviewBtn'>
+                                <button className='waves-effect waves-light btn-large moreBtn'>Mehr</button>
+                            </div>
+
                         </div>
                     </div>
                 </div>

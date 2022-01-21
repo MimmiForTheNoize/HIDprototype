@@ -1,73 +1,72 @@
-
 [
   {
     "id": 1,
     "reviewRating": 4.5,
     "title": "Kindergruppe Sonnenschein",
-    "reviewContent": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "reviewContent": "Mein Sohn hat seine Zeit bei Sonnenschein wahnsinnig genossen. Er hat viele Freunde gefunden und ihm hat die Abwechslung auch sehr gut gefallen. Wenn es ihm mal nicht so gut gegangen ist, haben sich die Pädagog:innen sehr gut um ihn gekümmert und ich habe mich sicher mit Sonnenschein gefühlt. Das Einzige: Das Mittagessen könnte besser bzw. gesünder ausfallen, aber wahrscheinlich bin ich in die Richtung etwas zu übersensibel… Wenn ich weitere Kinder hätte, würde ich diese auch in diesen Kindergarten schicken, danke Sonnenschein!",
     "helpful": 0,
     "date": "26.11.2020",
-    "name": "Hermione Granger",
+    "name": "Larissa Stadler",
     "timestamp": 1642353037138
   },
   {
     "id": 2,
     "reviewRating": 5,
     "title": "Kindergruppe Sonnenschein",
-    "reviewContent": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "reviewContent": "Für Tobias war es nicht allzu einfach, einen geeigneten Kindergartenplatz zu finden. Barrierefreiheit war ein wichtiges Thema und auch Diversität. Ich glaube, dass wir mit Sonnenschein den Nagel auf den Kopf getroffen haben. Von Tag 1 an hat eigentlich alles super gepasst",
     "helpful": 9,
     "date": "26.11.2020",
-    "name": "Hermione Granger",
+    "name": "Franz Liebgrün",
     "timestamp": 1642354171843
   },
   {
     "id": 3,
     "reviewRating": 3,
     "title": "Kindergruppe Sonnenschein",
-    "reviewContent": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "reviewContent": "Grundsätzlich war die Zeit bei Sonnenschein für meinen Sohn ok. Es gab ein/zwei Zwischenfälle, die etwas problematisch waren und wo ich mir nicht sicher war, ob das so wirklich ok ist. Aber letztendlich hat alles gut gepasst. Danke!",
     "helpful": 15,
     "date": "26.11.2020",
-    "name": "Hermione Granger",
+    "name": "Dennis Siebott",
     "timestamp": 1642353095127
   },
   {
     "id": 4,
     "reviewRating": 2,
     "title": "Kindergruppe Sonnenschein",
-    "reviewContent": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "reviewContent": "Der Fokus auf Natur war absolut übertrieben – die Kinder von meinen Freunden haben in anderen Kindergärten viel wertvollere Sachen gelernt. Schade um die Zeit, meine Tochter muss jetzt gewisse Dinge von mir und meiner Frau lernen, damit sie für ihr Leben gewappnet ist. Ich vergebe immerhin 2 Sterne, da zumindest vom Rechtlichen und Ernährungstechnischen her alles gepasst hat.",
     "helpful": 3,
     "date": "26.11.2020",
-    "name": "Hermione Granger",
+    "name": "Karl Neuhammer",
     "timestamp": "1642353037138"
   },
   {
     "id": 5,
     "reviewRating": 5,
     "title": "Kindergruppe Sonnenschein",
-    "reviewContent": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "reviewContent": "Die beste Erfahrung überhaupt für Sonja! Aus ihr wird mal eine große Umweltkämpferin – Greta Thunberg 2.0! Danke, dass all diese wichtigen Themen meinem Kind altersentsprechend aufbereitet beigebracht wurden.  Es wirkt, Sonja unterrichtet schon ihre Großeltern und bringt ihnen bei, wie man nachhaltiger leben kann.",
     "helpful": 0,
     "date": "26.11.2020",
-    "name": "Hermione Granger",
+    "name": "Sabine Schadinger",
     "timestamp": "1642353037138"
   },
   {
     "id": 6,
     "reviewRating": 2,
     "title": "Kindergruppe Sonnenschein",
-    "reviewContent": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "reviewContent": "Im Nachhinein hätte ich mich für die Kindergruppe Mars entschieden, da in gleicher Nähe und viel bessere Pädagog:innen dort arbeitstätig sind. Naja, mein nächstes Kind wird nicht mehr bei Sonnenschein sein, aber trotzdem danke!",
     "helpful": 3,
     "date": "26.11.2020",
-    "name": "Hermione Granger",
+    "name": "Fritz Gerngroß",
     "timestamp": "1642353037138"
   },
   {
     "id": 7,
     "reviewRating": 2,
     "title": "Kindergruppe Sonnenschein",
-    "reviewContent": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "reviewContent": "Liebe Pädagog:innen der Kindergruppe Sonnenschein, bitte hören sie besser auf die Kinder, die bei ihnen in der Gruppe sind. Mein Kind hatte das Gefühl, ständig überhört und nicht ernst genommen worden zu sein. Das hinterlässt Narben, die nicht so einfach wieder zuheilen. Bitte seid euch eurer Verantwortung bewusst und achtet auch dementsprechend im Umgang mit den Kleinen.",
     "helpful": 0,
     "date": "26.11.2020",
-    "name": "Hermione Granger",
+    "name": "Bianca Loretto",
     "timestamp": "1642353037138"
   }
 ]

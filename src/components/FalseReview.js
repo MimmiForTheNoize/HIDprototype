@@ -29,7 +29,7 @@ const FalseReview = () => {
     return (
         <div className='mainDiv'>
             <h3>Teile deine Meinung</h3>
-            <p className='loginInfo'>  Um eine Rezension zu erstellen musst du dich <a href='#'>anmelden</a>.</p>
+            <p className='loginInfo'>  Um eine Rezension zu erstellen musst du dich <a  className='loginLink' href='#'>anmelden</a>.</p>
             <form className={'add-form'} onSubmit={onSubmit}>
                 <div>
                     <div>
@@ -40,19 +40,41 @@ const FalseReview = () => {
                             *Gesamtbewertung<br />
                         </div>
                         <p className='falseLabel'>Du musst eine Gesamtbewertung angeben!</p>
-                        <div className='radioStars'>
-                            <label>
-                                <input name="group1" type="radio" onChange={(e) => setStars(true)}/>
-                                <span>1 Stern </span>
-                                <input name="group2" type="radio" onChange={(e) => setStars(true)}/>
-                                <span>2 Sterne </span>
-                                <input name="group3" type="radio" onChange={(e) => setStars(true)}/>
-                                <span>3 Sterne </span>
-                                <input name="group4" type="radio" onChange={(e) => setStars(true)}/>
-                                <span>4 Sterne </span>
-                                <input name="group5" type="radio" onChange={(e) => setStars(true)}/>
-                                <span>5 Sterne </span>
-                            </label>
+                        <div className='aboveStars'>
+                            <div className='radioStars row'>
+                                <div className='col s2 radioStarDiv'>
+                                    <label>
+                                        <input value='1Star' name="stars" type="radio" onChange={(e) => setStars(true)}/>
+                                        <span>1 Stern </span>
+                                    </label>
+                                </div>
+                                <div className='col s2  radioStarDiv'>
+                                    <label>
+                                        <input value='2Star' name="stars" type="radio" onChange={(e) => setStars(true)}/>
+                                        <span>2 Sterne </span>
+                                    </label>
+                                </div>
+                                <div className='col s2  radioStarDiv'>
+                                    <label>
+                                        <input value='3Star' name="stars" type="radio" onChange={(e) => setStars(true)}/>
+                                        <span>3 Sterne </span>
+                                    </label>
+                                </div>
+                                <div className='col s2  radioStarDiv'>
+                                    <label>
+                                        <input value='4Star' name="stars" type="radio" onChange={(e) => setStars(true)}/>
+                                        <span>4 Sterne </span>
+                                    </label>
+                                </div>
+                                <div className='col s2  radioStarDiv'>
+                                    <label>
+                                        <input value='5Star' name="stars" type="radio" onChange={(e) => setStars(true)}/>
+                                        <span>5 Sterne </span>
+                                    </label>
+                                </div>
+                            </div>
+
+
                         </div>
                         <div className='container center marginrelated'>
                             <p className='falseLabel'>Du musst den Titel deiner Bewertung angeben!</p>
@@ -67,22 +89,32 @@ const FalseReview = () => {
 
                         <div className='foodselection dropdown'>
                             <select className='addReviewSelects'>
+
                                 <option value='auswahl'>Speisenauswahl</option>
-                                <option value='choco'>Vegetarisch</option>
-                                <option value='straw'>kein Schweinefleisch</option>
-                                <option value='vanilla'>Glutenfrei</option>
-                                <option value='vanilla'>Antihistamin</option>
+                                <option value='vegetarisch'>Vegetarisch</option>
+                                <option value='keinSchweinefleisch'>kein Schweinefleisch</option>
+                                <option value='Glutenfrei'>Glutenfrei</option>
+                                <option value='antihistamin'>Antihistamin</option>
                             </select>
                         </div>
 
-                        <div className='privateLabel'>
-                            <label>
-                                <input name="group1" type="radio"/>
-                                <span>Red</span>
-                                <input name="group1" type="radio"/>
-                                <span>Yellow</span>
-                            </label>
+                        <div className='aboveStars'>
+                            <div className='privateLabel radioStars row'>
+                                <div className='col s6 radioStarDiv'>
+                                    <label>
+                                        <input className='col s6' value='private' name="group1" type="radio"/>
+                                        <span>Private</span>
+                                    </label>
+                                </div>
+                                <div  className='col s6 radioStarDiv'>
+                                    <label>
+                                        <input  value="public" name="group1" type="radio"/>
+                                        <span>Öffentlich</span>
+                                    </label>
+                                </div>
+                            </div>
                         </div>
+
 
                         <div className='addCheckbox container'>
                            <span className='checkboxLabel'>
@@ -126,17 +158,10 @@ const FalseReview = () => {
                         </div>
 
 
-                        <div className='container pricerange'>
-                            <p className="range-field">
-                                <label>Preiseklasse</label>
-                                <input type="range" id="test5" min="0" max="100"/>
-                            </p>
-                        </div>
-
                     </div>
                     <div className='publishBtn'>
                         <Link to={routeThrough()}>
-                            <PrimaryBtn color={'red'} text={'Veröffentlichen'}
+                            <PrimaryBtn color={'#59B176'} text={'Veröffentlichen'}
                                         className={'waves-effect waves-light btn-large center landingPageBtn'}/>
                         </Link>
                     </div>
@@ -144,8 +169,6 @@ const FalseReview = () => {
 
                 </div>
             </form>
-
-
 
         </div>
     )

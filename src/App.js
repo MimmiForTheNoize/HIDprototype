@@ -12,6 +12,7 @@ import Reviews from "./components/Reviews";
 import AddReview from "./components/AddReview";
 import FalseReview from "./components/FalseReview";
 import HeaderImage from "./components/HeaderImage";
+import { useWIndowScroll } from "react-use";
 
 function App() {
   return (

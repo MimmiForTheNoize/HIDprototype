@@ -14,7 +14,7 @@ const Quizz = () => {
         <div className='mainDiv'>
             <div className='header'>
                 <div className='question'>
-                    Welches Bilderbuch würde dein Kind am meisten interessieren?
+                   <span className='spanQuestion'> Welches Bilderbuch würde dein Kind am meisten interessieren?</span>
                 </div>
             </div>
             <div className='quizzContent'>
@@ -27,17 +27,17 @@ const Quizz = () => {
                         <a href="#!" className="collection-item">Keines der Angegebenen</a>
                     </div>
                 </div>
-                <div className='quizzActions row'>
+                <div className='quizzActions'>
 
                     <Link to='/'>
                         <div className='col s2'>
-                            <button className="btn waves-effect waves-light left" type="submit" name="action">
+                            <button className="btn waves-effect waves-light btn-large left quizzBtnabbrechen" type="submit" name="action">
                                 Abbrechen
                             </button>
                         </div>
 
                         <div className='col s2'>
-                            <button className="btn waves-effect waves-light left" type="submit" name="action">
+                            <button className="btn waves-effect waves-light btn-large left quizzBtn" type="submit" name="action">
                                 Zurück
                             </button>
                         </div>

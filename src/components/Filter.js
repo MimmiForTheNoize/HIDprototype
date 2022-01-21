@@ -48,20 +48,25 @@ const Filter = ({ locations, ratings, onSearchFilter, onLocationFilter, onRating
                     />
                 </div>
                 <div className='dropdown row'>
-                    <label htmlFor='location'> Wohnort</label>
-                    <select className='locationSelect' onChange={handleInput("locations")}>
-                        <option value=''>Ort auswählen</option>
-                        {locations.map(singleLocation => (
-                            <option value={singleLocation} key={singleLocation}>{singleLocation}</option>
-                        ))}
+                   <div className='dropdownSelect'>
+                       <label htmlFor='location'> Wohnort</label>
+                       <select className='locationSelect' onChange={handleInput("locations")}>
+                           <option value=''>Ort auswählen</option>
+                           {locations.map(singleLocation => (
+                               <option value={singleLocation} key={singleLocation}>{singleLocation}</option>
+                           ))}
                     </select>
-                    <label htmlFor='rating'> Bewertung</label>
-                    <select className='ratingSelect' onChange={handleInput("ratings")}>
-                        <option value=''>Bewertungsgrad</option>
-                        {ratings.map(singleRating => (
-                            <option value={singleRating} key={singleRating}>{singleRating}</option>
-                        ))}
-                    </select>
+                   </div>
+                    <div className='dropdownSelect'>
+                        <label htmlFor='rating'> Bewertung</label>
+                        <select className='ratingSelect' onChange={handleInput("ratings")}>
+                            <option value=''>Bewertungsgrad</option>
+                            {ratings.map(singleRating => (
+                                <option value={singleRating} key={singleRating}>{singleRating}</option>
+                            ))}
+                        </select>
+                    </div>
+
 
                 </div>
             </div>

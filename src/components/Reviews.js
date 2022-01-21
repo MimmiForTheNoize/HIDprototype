@@ -15,9 +15,9 @@ const Reviews = () => {
             <div className='row'>
                 <p className=' left searchtitle rezensiontitle col s6'>Rezensionen zu Kindergarten Sonnenschein</p>
              <div className='col s6'>
-                 <p className='calltoActionRezension'>Erstelle jetzt eine Rezenssion</p>
+                 <p className='calltoActionRezension'>Erstelle jetzt eine Rezension</p>
                  <Link to='/detailpage/detailpage/reviews/addreview'>
-                     <PrimaryBtn color={'red'} text={'Rezension erstellen'} className = {'waves-effect waves-light btn-large center landingPageBtn'}/>
+                     <PrimaryBtn color={'#59B176'} text={'Rezension erstellen'} className = {'waves-effect waves-light btn-large center landingPageBtn'}/>
                  </Link>
              </div>
 

@@ -1,99 +1,98 @@
-
 [
-    {
-      "id": 1,
-      "rating": 4.5,
-      "heading": "Kindergruppe Sonnenschein",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "location": "Wien",
-      "private": true
-    },
-    {
-      "id": 2,
-      "rating": 3,
-      "heading": "Kindergruppe Mond",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "location": "Linz",
-      "private": false
-    },
-    {
-      "id": 3,
-      "rating": 5,
-      "heading": "Kindergruppe Mars",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "location": "Neusiedl am See",
-      "private": true
-    },
-    {
-      "id": 4,
-      "rating": 5,
-      "heading": "Kindergruppe Venus",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "location": "Innsbruck",
-      "private": true
-    },
-    {
-      "id": 5,
-      "rating": 2,
-      "heading": "Kindergruppe Uranus",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "location": "Salzburg",
-      "private": true
-    },
-    {
-      "id": 6,
-      "rating": 3.5,
-      "heading": "Kindergruppe Jupiter",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "location": "Graz",
-      "private": false
-    },
-    {
-      "id": 7,
-      "rating": 4.5,
-      "heading": "Kindergruppe Sonnenschein",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "location": "Wien",
-      "private": false
-    },
-    {
-      "id": 8,
-      "rating": 3,
-      "heading": "Kindergruppe Mond",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "location": "Linz",
-      "private": false
-    },
-    {
-      "id": 9,
-      "rating": 5,
-      "heading": "Kindergruppe Mars",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "location": "Neusiedl am See",
-      "private": true
-    },
-    {
-      "id": 10,
-      "rating": 5,
-      "heading": "Kindergruppe Venus",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "location": "Innsbruck",
-      "private": false
-    },
-    {
-      "id": 11,
-      "rating": 2,
-      "heading": "Kindergruppe Uranus",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "location": "Salzburg",
-      "private": false
-    },
-    {
-      "id": 12,
-      "rating": 3.5,
-      "heading": "Kindergruppe Jupiter",
-      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "location": "Graz",
-      "private": false
-    }
-  ]
+  {
+    "id": 1,
+    "rating": 4.5,
+    "heading": "Kindergruppe Sonnenschein",
+    "content": "Sonnige Grüße von der Sonnenschein-Kindergruppe! Mit hohem Fokus auf Outdoor möchten wir Ihrem Kind beibringen, dass der Mensch mit der Natur im Einklang leben kann. Wir haben eine tolle Anlage, in der die Kinder spielerisch verschiedenste Dinge lernen und wir möchten ihnen auch die individuelle Zeit geben, die sie dafür benötigen. Wir setzen eine ideale Voraussetzung für einen weiteren erfolgreichen Lebenslauf – schauen Sie doch gerne einmal bei uns vorbei und überzeugen Sie sich selbst!",
+    "location": "Wien",
+    "private": true
+  },
+  {
+    "id": 2,
+    "rating": 3,
+    "heading": "Kindergruppe Mond",
+    "content": "Im Herzen von Linz können Sie Ihr Kind in unsere Obhut geben und müssen sich keine Sorgen mehr machen. Wir schätzen oberösterreichische Kultur wert und das möchten wir den Kindern auch mitgeben – Heimat ist das wertvollste Gut, das man als Mensch besitzen kann. Wir machen auch viele Ausflüge zu Attraktionen, die sich dank der guten Lage alle in sicherer Nähe befinden. Ihr Kind wird sich bei uns sehr wohl fühlen und in einer sicheren Umgebung von Tag zu Tag Wertvolles dazulernen und sich weiterentwickeln.",
+    "location": "Linz",
+    "private": false
+  },
+  {
+    "id": 3,
+    "rating": 5,
+    "heading": "Kindergruppe Mars",
+    "content": "Suchen Sie für Ihr Kind nach einem Kindergarten, der hochkompetente Pädagog:innen hat? Sie sind bei uns richtig – unser Bewerbungsprozess ist sehr aufwändig, dafür aber auch sehr nachhaltig. Bei  uns können Sie sicher sein, dass Sie Ihr Kind Pädagog:innen überlassen, die nach neuesten wissenschaftlichen Erkenntissen ausgebildet sind. Sie werden es in den darauffolgenden Jahren, die ihr Kind erleben wird, mitbekommen. Die besten Voraussetzungen für das kommende Leben warten auf Ihr Kind in der Kindergruppe Mars!",
+    "location": "Neusiedl am See",
+    "private": true
+  },
+  {
+    "id": 4,
+    "rating": 5,
+    "heading": "Kindergruppe Venus",
+    "content": "Menschlichkeit, Natur, bewusste Ernährung und ständige Neugierde für Neues – wünschen Sie sich das nicht für Ihr Kind? Wenn ja, schauen Sie doch bei unserer Venus-Kindergruppe vorbei. Wir leben all diese Werte Tag für Tag und haben auch Wege gefunden, diese den Kindern Stück für Stück beizubringen. Vor allem im Bereich Ernährung legen wir einen Wert darauf, nur Bio-Produkte zu verkochen mit einem vordergründig vegetarischen/veganen Speiseplan. Wir haben eine eigene Köchin, die Ausbildungen in diese Richtung absolviert hat.",
+    "location": "Innsbruck",
+    "private": true
+  },
+  {
+    "id": 5,
+    "rating": 2,
+    "heading": "Kindergruppe Uranus",
+    "content": "Uranus ist der Inbegriff für Neugierde und Entdeckungslust – genau das erwecken wir bei Ihrem Kind. Mit unseren Pädagog:innen und anderen Kindern taucht Ihr Kind in eine abenteuerliche Kindergartenzeit ein, die sie ein Leben lang gerne in Erinnerung behalten wird. Unsere vielen erprobten Möglichkeiten bieten eine ganze Palette an Einrichtungen, Ausflügen und Sonstiges, um die Neugierde Ihres Kindes vollstens zu befriedigen. Kommen Sie doch mal bei uns vorbei und lassen Sie sich von uns überzeugen!",
+    "location": "Salzburg",
+    "private": true
+  },
+  {
+    "id": 6,
+    "rating": 3.5,
+    "heading": "Kindergruppe Jupiter",
+    "content": "Die Vorbereitung auf eine solidarische Gesellschaft ist bei unserer Kindergruppe hochgeschrieben. Werte wie Sozialität und Engagement werden von unseren Pädagog:innen den Kindern gelehrt. Bei uns lernt Ihr Kind, dass, obwohl sich harte Arbeit auszahlt, besonders auf die Schwächeren unter uns Rücksicht genommen werden muss. Wenn Sie glauben, dass Kinder heutzutage in diese Richtung erzogen werden sollten, ist Ihr Kind bei uns gut aufgehoben. Schauen Sie vorbei!",
+    "location": "Graz",
+    "private": false
+  },
+  {
+    "id": 7,
+    "rating": 4.5,
+    "heading": "Kindergruppe Sonnenschein",
+    "content": " Sonnige Grüße von der Sonnenschein-Kindergruppe! Mit hohem Fokus auf Outdoor möchten wir Ihrem Kind beibringen, dass der Mensch mit der Natur im Einklang leben kann. Wir haben eine tolle Anlage, in der die Kinder spielerisch verschiedenste Dinge lernen und wir möchten ihnen auch die individuelle Zeit geben, die sie dafür benötigen. Wir setzen eine ideale Voraussetzung für einen weiteren erfolgreichen Lebenslauf – schauen Sie doch gerne einmal bei uns vorbei und überzeugen Sie sich selbst!",
+    "location": "Wien",
+    "private": false
+  },
+  {
+    "id": 8,
+    "rating": 3,
+    "heading": "Kindergruppe Mond",
+    "content": " Im Herzen von Linz können Sie Ihr Kind in unsere Obhut geben und müssen sich keine Sorgen mehr machen. Wir schätzen oberösterreichische Kultur wert und das möchten wir den Kindern auch mitgeben – Heimat ist das wertvollste Gut, das man als Mensch besitzen kann. Wir machen auch viele Ausflüge zu Attraktionen, die sich dank der guten Lage alle in sicherer Nähe befinden. Ihr Kind wird sich bei uns sehr wohl fühlen und in einer sicheren Umgebung von Tag zu Tag Wertvolles dazulernen und sich weiterentwickeln.",
+    "location": "Linz",
+    "private": false
+  },
+  {
+    "id": 9,
+    "rating": 5,
+    "heading": "Kindergruppe Mars",
+    "content": " Suchen Sie für Ihr Kind nach einem Kindergarten, der hochkompetente Pädagog:innen hat? Sie sind bei uns richtig – unser Bewerbungsprozess ist sehr aufwändig, dafür aber auch sehr nachhaltig. Bei  uns können Sie sicher sein, dass Sie Ihr Kind Pädagog:innen überlassen, die nach neuesten wissenschaftlichen Erkenntissen ausgebildet sind. Sie werden es in den darauffolgenden Jahren, die ihr Kind erleben wird, mitbekommen. Die besten Voraussetzungen für das kommende Leben warten auf Ihr Kind in der Kindergruppe Mars!",
+    "location": "Neusiedl am See",
+    "private": true
+  },
+  {
+    "id": 10,
+    "rating": 5,
+    "heading": "Kindergruppe Venus",
+    "content": " Menschlichkeit, Natur, bewusste Ernährung und ständige Neugierde für Neues – wünschen Sie sich das nicht für Ihr Kind? Wenn ja, schauen Sie doch bei unserer Venus-Kindergruppe vorbei. Wir leben all diese Werte Tag für Tag und haben auch Wege gefunden, diese den Kindern Stück für Stück beizubringen. Vor allem im Bereich Ernährung legen wir einen Wert darauf, nur Bio-Produkte zu verkochen mit einem vordergründig vegetarischen/veganen Speiseplan. Wir haben eine eigene Köchin, die Ausbildungen in diese Richtung absolviert hat.",
+    "location": "Innsbruck",
+    "private": false
+  },
+  {
+    "id": 11,
+    "rating": 2,
+    "heading": "Kindergruppe Uranus",
+    "content": " Uranus ist der Inbegriff für Neugierde und Entdeckungslust – genau das erwecken wir bei Ihrem Kind. Mit unseren Pädagog:innen und anderen Kindern taucht Ihr Kind in eine abenteuerliche Kindergartenzeit ein, die sie ein Leben lang gerne in Erinnerung behalten wird. Unsere vielen erprobten Möglichkeiten bieten eine ganze Palette an Einrichtungen, Ausflügen und Sonstiges, um die Neugierde Ihres Kindes vollstens zu befriedigen. Kommen Sie doch mal bei uns vorbei und lassen Sie sich von uns überzeugen!",
+    "location": "Salzburg",
+    "private": false
+  },
+  {
+    "id": 12,
+    "rating": 3.5,
+    "heading": "Kindergruppe Jupiter",
+    "content": " Die Vorbereitung auf eine solidarische Gesellschaft ist bei unserer Kindergruppe hochgeschrieben. Werte wie Sozialität und Engagement werden von unseren Pädagog:innen den Kindern gelehrt. Bei uns lernt Ihr Kind, dass, obwohl sich harte Arbeit auszahlt, besonders auf die Schwächeren unter uns Rücksicht genommen werden muss. Wenn Sie glauben, dass Kinder heutzutage in diese Richtung erzogen werden sollten, ist Ihr Kind bei uns gut aufgehoben. Schauen Sie vorbei!",
+    "location": "Graz",
+    "private": false
+  }
+]

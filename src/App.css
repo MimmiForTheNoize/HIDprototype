@@ -20,6 +20,7 @@ h3 {
   font-family: 'Poppins', sans-serif;
 }
 
+
 .mainDiv .landingpageMain {
   background-color: #f9f9f9;
   opacity: 0.8;
@@ -34,15 +35,19 @@ h3 {
 
 .mainDiv {
   text-align: center;
+  margin-top: 10vh;
 }
 .bigLink {
-  color: #60e160;
+  color: #59B176;
   margin-left: 5vw;
+  background-color: #f9f9f9;
+  padding: 1vh 3vw 1vh 3vw
 }
 
 .bigLink:hover {
-  border-bottom: 1px solid;
+  border: 1px solid;
   cursor: pointer;
+  color: #FF8811;
 }
 .App-link {
   color: #61dafb;
@@ -108,11 +113,26 @@ quizzBtn {
 .question {
   padding: 15vh 0 3vh 0;
 }
+.spanQuestion {
+  border: 1px solid;
+  padding: 2vh 8vw 2vh 8vw;
+}
 
 .answers {
   padding: 2vh;
   background-color: #f9f9f9;
   margin-bottom: 2vh;
+}
+
+.collection-item {
+  color: #4B4B4B!important;
+  font-size: 18px!important;
+}
+
+.collection-item:hover {
+  color: #4B4B4B!important;
+  font-size: 18px!important;
+  background-color: #9ED1AF!important;
 }
 
 .cont {
@@ -150,6 +170,11 @@ quizzBtn {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
+.dropdownSelect {
+  padding: 1vh 4vh 4vh 4vh
+
+}
+
 
 .results {
   margin: 5vh;
@@ -165,10 +190,17 @@ select {
 .bearLogo {
   height: 10%;
   width: 10%;
+  margin-right: 1vw;
 }
 .navbar-fixed {
   padding-bottom: 15vh;
+
 }
+
+.nav-wrapper{
+  background-color: #6a1b9a;
+}
+
 
 .navItems {
   margin-right: 5vw;
@@ -178,7 +210,7 @@ select {
 }
 
 .headerDiv {
-  background-color: #60e160;
+  background-color: #6a1b9a;
   color: #000;
 }
 .bearLogo {
@@ -186,9 +218,9 @@ select {
 }
 .KidzEdTitle {
   margin-right: 5vw;
-  font-size: 3vw;
+  font-size: 3rem;
+  color: #f9f9f9;
 }
-
 
 .landingPageBtn {
   margin: 1vh;
@@ -208,12 +240,66 @@ landingpageStars {
   alignment-baseline: center;
 }
 
-
 .page-footer {
   height: 21vh;
+  background-color: #6a1b9a;
 }
-.moreBtn {
 
+.footer-copyright {
+  background-color: #6a1b9a!important;
+}
+
+.page-footer a {
+  color: #f9f9f9;
+}
+
+.footerColor {
+  background-color: #6A1B9A;
+}
+
+.quizzActions {
+  display: flex;
+  flex-direction: row;
+}
+
+.quizzBtnabbrechen {
+  background-color: #F00518!important;
+}
+
+.quizzBtn {
+  background-color: #FF8811;
+  margin: 2vh
+}
+
+.moreBtn {
+ background-color: #96738E;
+}
+
+.moreBtn:hover {
+  background-color: #6A1B9A;
+}
+
+.reviewBtn {
+  margin-left: 8vw!important;
+}
+
+.helpful svg {
+  font-size: 25px;
+}
+.helpful svg:active {
+  color: #FF7F11;
+}
+
+.reviewStars {
+  color: #FF8811;
+}
+
+.date {
+  margin-top: 8px;
+}
+.reviewRanking {
+  margin-top: 10px;
+  margin-left: 15vw;
 }
 
 .contactMapImage {
@@ -230,6 +316,11 @@ landingpageStars {
 
 .contactCard {
   padding-bottom: 2.5vh;
+  font-size: 18px;
+}
+
+.contactCard p {
+  line-height: 2;
 }
 
 .detailReview {
@@ -263,6 +354,13 @@ landingpageStars {
 
 .loginInfo {
   margin: 5vh 0vh 3.5vh 0vh;
+  font-size: 18px;
+
+}
+
+.calltoActionRezension {
+  font-size: 25px!important;
+  margin-top: 5vh;
 }
 
 .addreview {
@@ -272,6 +370,10 @@ landingpageStars {
 
 .starlabel {
   padding-bottom: 1.5vh;
+  color: #FF7F11;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  font-size: 18px;
 }
 
 .radioStars {
@@ -322,7 +424,70 @@ landingpageStars {
 
 .publishBtn {
   margin-bottom: 10vh;
+
 }
+
+label {
+  color: #4B4B4B;
+}
+
+.falseLabel {
+  color: #F00518;
+  font-size: 18px;
+  background-color: #ECC1C8;
+}
+
+.loginLink {
+  color: #FF7F11!important;
+}
+
+
+
+.testbtnup {
+  position: fixed;
+  width: 100%;
+  left: 30%;
+  bottom: 7%;
+  height: 20px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: green;
+}
+
+
+
+@keyframes scrollTop {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-1px);
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .spanQuestion {
+    border: none;
+  }
+
+  .quizzActions {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .reviewElemUpper {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .date {
+    margin: 0;
+    float: none;
+    width: auto;
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
   .detailBody {
@@ -340,4 +505,21 @@ landingpageStars {
     max-width: 100%!important;
     margin-left: 0;
   }
+
+  .featured {
+    margin: 0 0 8vh 0;
+  }
+  .KidzEdTitle {
+    font-size: 3rem;
+  }
+  .testbtnup {
+    left: 45%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .testbtnup {
+    left: 40%;
+  }
+
 }

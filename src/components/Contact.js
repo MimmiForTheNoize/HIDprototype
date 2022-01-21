@@ -11,7 +11,7 @@ const Contact = () => {
     return (
 
         <div className='mainDiv'>
-            <h3>Alle Kontaktinformationen</h3>
+            <h3>Alle Kontaktinfos</h3>
 
             <div className={'contactImage'}>
                <img src={mapImage} alt='Standort' className='contactMapImage'/>

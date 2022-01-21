@@ -30,7 +30,7 @@ const AddReview = () => {
     return (
         <div className='mainDiv'>
         <h3>Teile deine Meinung</h3>
-          <p className='loginInfo'>  Um eine Rezension zu erstellen musst du dich <a href='#'>anmelden</a>.</p>
+          <p className='loginInfo'>  Um eine Rezension zu erstellen musst du dich <a className='loginLink' href='#'>anmelden</a>.</p>
             <form className={'add-form'} onSubmit={onSubmit}>
                 <div>
                     <div>
@@ -91,10 +91,10 @@ const AddReview = () => {
                             <select className='addReviewSelects'>
 
                                 <option value='auswahl'>Speisenauswahl</option>
-                                <option value='choco'>Vegetarisch</option>
-                                <option value='straw'>kein Schweinefleisch</option>
-                                <option value='vanilla'>Glutenfrei</option>
-                                <option value='vanilla'>Antihistamin</option>
+                                <option value='vegetarisch'>Vegetarisch</option>
+                                <option value='keinSchweinefleisch'>kein Schweinefleisch</option>
+                                <option value='Glutenfrei'>Glutenfrei</option>
+                                <option value='antihistamin'>Antihistamin</option>
                             </select>
                         </div>
 
@@ -158,21 +158,10 @@ const AddReview = () => {
                         </div>
 
 
-                        <div className='container pricerange'>
-                            <p className="range-field">
-                                <label>Kostenspanne</label>
-                               <div className='row'>
-                               <span className='col s2 left'>Kostengünstig</span>
-                                   <input className='col s6 center' type="range" id="test5" min="0" max="100"/>
-                                   <span className='col s2 right'>Teuer</span>
-                               </div>
-                            </p>
-                        </div>
-
                     </div>
             <div className='publishBtn'>
                 <Link to={routeThrough()}>
-                    <PrimaryBtn color={'red'} text={'Veröffentlichen'}
+                    <PrimaryBtn color={'#59B176'} text={'Veröffentlichen'}
                                 className={'waves-effect waves-light btn-large center landingPageBtn'}/>
                 </Link>
             </div>
