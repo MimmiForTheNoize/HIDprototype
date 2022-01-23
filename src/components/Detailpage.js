@@ -20,9 +20,7 @@ const Detailpage = () => {
                     </div>
 
                     <div className='headertext center'>
-                        aölsdjfkaölsjdföalskdjfölaksj ölkasj döflkajsdölfkj
-                        asökdfjalksjdfölaksdjfdlöa skjfaöslkjdf ölakjsdölkfj
-                        asdfjaösldkfjöasdl fkja.lskdjföalkjsdföljasdö lf kjasöldkfj
+                        Diese Grafiken zeigen das Verhältnis der angegebenen Kriterien nach Maßgebung von Rezensionen und weiteren Angaben.
                     </div>
 
 

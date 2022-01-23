@@ -36,7 +36,7 @@ const SearchResults = ({ results }) => {
 
     const handleFilterSelectRating = (singleRating) => {
         const filteredData = results.filter(result => {
-            if(result.rating === singleRating) {
+            if(result.rating === parseInt(singleRating)) {
                 return result;
             }
         });

@@ -15,7 +15,7 @@ const AllReviews = ( {reviews} ) => {
 
     const handleFilterSelectReviewRating = (singleRating) => {
         const filteredData = reviews.filter(review => {
-            if(review.rating === singleRating) {
+            if(review.rating === parseInt(singleRating)) {
                 return review;
             }
         });
